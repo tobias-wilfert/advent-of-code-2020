@@ -60,7 +60,7 @@ int solutionDayOnePartTwo(const std::vector<int> &vec) {
 
 int main() {
   // Read the input into a vector
-  std::ifstream is("dayOne.txt");
+  std::ifstream is("../inputs/dayOne.txt");
   std::istream_iterator<int> start(is), end;
   std::vector<int> input(start, end);
 
